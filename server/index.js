@@ -55,3 +55,5 @@ const saveData = async (data) => {
 server.listen(PORT, "0.0.0.0", () => {
   console.log(`connected at port ${PORT}`);
 });
+
+module.exports = server;
