@@ -151,7 +151,7 @@ class _DocumentScreenState extends ConsumerState<DocumentScreen> {
               ),
               const SizedBox(width: 10),
               SizedBox(
-                width: 180,
+                width: 130,
                 child: TextField(
                   controller: titleController,
                   decoration: const InputDecoration(
